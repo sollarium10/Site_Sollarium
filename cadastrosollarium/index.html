@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Usuário</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+  <script src="./index.js"></script>
+  </head>
+ 
+  <body>
+
+ 
+  <form action="/submit" method="post">
+    <h1>Cadastro Sollarium</h1>
+    <label for="primeiroNome">Primeiro Nome:</label>
+    <input type="text" id="primeiroNome" name="primeiroNome" required>
+ 
+    <label for="ultimoNome">Último Nome:</label>
+    <input type="text" id="ultimoNome" name="ultimoNome" required>
+ 
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+ 
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required>
+ 
+    <label for="confirmarSenha">Confirmar Senha:</label>
+    <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+ 
+    <label for="estado">Estado:</label>
+    <select id="estado" name="estado" required>
+   
+      <option value="SP">São Paulo</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="MG">Minas Gerais</option>
+      <option value="ES">Espírito Santo</option>
+    </select>
+ 
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" name="cidade" required>
+ 
+    <input type="submit" value="Cadastrar">
+  </form>
+ 
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+label, pre, a {
+    font-family: Arial, sans-serif;
+    color: #2c2c2c;
+}
+
+a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-image: linear-gradient(90deg, #0000ff 0%, #cd0093 100%);
+    padding: 12px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-right: 40px;
+
+}
+
+.remember-me label {
+margin-right: 255px;
+margin-top: -10px;
+white-space: nowrap;
+background-color: rgba(255, 255, 255, 0);
+font-family: "Roboto", sans-serif;
+color: #4d4d4d;
+letter-spacing: 0.4px;
+font-size: 13px;
+
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link pre {
+    margin-bottom: 5px;
+}

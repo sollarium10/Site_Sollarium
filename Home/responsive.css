@@ -1,0 +1,204 @@
+/* header */
+ 
+@media (max-width: 980px) {
+    .navbar .links,
+    .navbar .action_btn {
+      display: none;
+    }
+   
+    .navbar .toggle_btn {
+      display: block;
+    }
+   
+    .dropdown_menu {
+      display: block;
+      position: absolute;
+      z-index: 2;
+    }
+   
+    .pesq {
+      background-color: white;
+      border: 1px solid white;
+    }
+   
+    header a {
+      color: white;
+    }
+   
+    .container .bb {
+      display: none;
+    }
+   
+    .container img {
+      position: relative;
+    }
+   
+    .block {
+      text-align: center;
+    }
+   
+    .btbb {
+      text-align: center;
+      justify-content: center;
+    }
+   
+    .title,
+    .text {
+      align-items: center;
+      padding: 0% 5% 15% 0%;
+    }
+   
+    .title {
+      font-size: 35px;
+      text-align: left;
+    }
+   
+    .text {
+      font-size: 22.5px;
+    }
+   
+    .button {
+      padding: 10px;
+      width: 200px;
+      height: 40px;
+      text-align: center;
+    }
+  }
+   
+  @media (max-width: 576px) {
+    .dropdown_menu {
+      left: 2rem;
+      width: unset;
+    }
+   
+    main h1 {
+      font-size: 21px;
+    }
+   
+    .img-escolha-mb {
+      display: block;
+    }
+   
+    .img-escolha {
+      display: none;
+    }
+   
+    main h1 {
+      text-align: center;
+    }
+   
+    .title,
+    .text {
+      align-items: center;
+      padding: 0% 5% 15% 0%;
+    }
+   
+    .title {
+      font-size: 35px;
+      text-align: left;
+    }
+   
+    .text {
+      font-size: 22.5px;
+    }
+   
+    .button {
+      padding: 10px;
+      width: 200px;
+      height: 40px;
+      text-align: center;
+    }
+   
+    .paragrafo {
+      max-width: 95%;
+    }
+   
+    .paragrafo img {
+      max-width: 60%;
+    }
+   
+    .paragrafo h2 {
+      text-align: center;
+    }
+   
+    .paragrafo p {
+      text-align: center;
+      padding: 2px;
+    }
+   
+    .energia {
+      padding: 15px;
+    }
+   
+    .energia-content p {
+      font-size: 20px;
+      text-align: center;
+      padding: 0px;
+    }
+   
+    .energia-content h2 {
+      font-size: 40px;
+      text-align: center;
+    }
+   
+    .serv {
+      text-align: center;
+      padding: 0;
+      align-items: center;
+      width: 100%;
+    }
+   
+    .text-serv {
+      text-align: center;
+    }
+   
+    .text-serv:nth-child(2) {
+      margin-left: 0;
+    }
+  }
+   
+  /* main */
+   
+  @media (max-width: 768px) {
+    .explanation {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+   
+  @media screen and (max-width: 768px) {
+    .block {
+      width: 100%; /* Altera a largura dos blocos para ocupar toda a largura em telas menores */
+      margin: 10px 0; /* Remove a margem horizontal em telas menores */
+    }
+  }
+   
+  @media (max-width: 768px) {
+    .energia {
+      flex-direction: column;
+    }
+   
+    .energia-content {
+      margin-right: 0;
+      text-align: center;
+    }
+   
+    .image {
+      margin-top: 20px;
+    }
+  }
+   
+  /* footer */
+   
+  @media screen and (max-width: 768px) {
+    .footer_content {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  }
+   
+  @media screen and (max-width: 426px) {
+    .footer_content {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 3rem 2rem;
+    }
+  }

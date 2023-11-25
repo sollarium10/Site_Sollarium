@@ -1,0 +1,62 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do corpo e do header */
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f2f2f2; /* Cinza claro */
+  }
+  
+nav ul {
+  display: flex;
+  justify-content: space-between; /* Espaçamento uniforme entre os itens */
+  list-style: none;
+  padding: 30px 20px; /* Espaçamento na parte superior e inferior */
+  background: linear-gradient(to right, #880cea, #eec907);
+}
+
+nav ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px 10px; /* Espaçamento interno nos links */
+  border-radius: 5px;
+}
+
+  /* Estilo do histórico de atendimento */
+  .historico-atendimento {
+    margin: 20px;
+  }
+  
+  .atendimento-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .descricao-servico {
+    background-color: #ffffff; /* Branco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+  }
+  
+  .descricao-servico p {
+    color: #333333; /* Cinza escuro */
+    margin-bottom: 10px;
+  }
+  
+  .descricao-servico p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .descricao-servico p:first-child {
+    font-weight: bold;
+  }
+  
+  
